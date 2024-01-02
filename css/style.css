@@ -33,6 +33,9 @@ ul{
     gap: 10%;
     flex-wrap: wrap;
 }
+.title > img{
+    min-width: 400px;
+}
 .signup{
     width: 50%;
 }
