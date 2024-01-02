@@ -45,6 +45,10 @@ ul{
     background-color: #3882f6;
     font-size: 18px;
     color: #f9faf8;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    padding: 0;
 }
 
 .s_text{
@@ -97,9 +101,20 @@ span{
 .blue{
     background-color:#3882f6;
     width:80%;
-    padding: 16px;
+    padding: 30px;
     display: flex;
-    
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+.blue_button{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8 #f9faf8;
 }
 
 .footer{
@@ -107,4 +122,5 @@ span{
     font-size: 18px;
     color: #e5e7eb;
     text-align: center;
+    padding:3% 0;
 }
