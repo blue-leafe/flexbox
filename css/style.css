@@ -6,7 +6,6 @@ body{
 .header{
     background-color: #1f2937;
    padding: 0 10% 10% 10%;
-
 }
 .logo{
     font-size: 24px;
@@ -32,6 +31,7 @@ ul{
     display: flex;
     flex-direction: row;
     gap: 10%;
+    flex-wrap: wrap;
 }
 .signup{
     width: 50%;
