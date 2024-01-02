@@ -1,12 +1,40 @@
+
 body{
     height: 100vh;
+    margin: 0;
 }
 .header{
     background-color: #1f2937;
+   padding: 0 10% 10% 10%;
+
 }
 .logo{
     font-size: 24px;
     color: #f9faf8;
+}
+.links{
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:10%;
+}
+ul{
+    display: flex;
+    gap: 16px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.signup{
+    width: 50%;
 }
 .awesome{
     font-size: 48px;
@@ -23,13 +51,7 @@ body{
     font-size: 18px;
     color: #e5e7eb;
 }
-.links{
-    font-size: 18px;
-    color: #e5e7eb;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 .t_card{
     font-size: 36px;
