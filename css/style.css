@@ -69,12 +69,22 @@ ul{
 .deck{
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 3%;
 }
 
 .cards{
+    
     width: 200px;
     text-align: center;
+    border-color: #3882f6;
+    border-width: 3px;
+}
+
+.cards > img {
+    border: solid;
+    border-color: #3882f6;
+    border-width: 3px;
+    border-radius: 10px;
 }
 
 .quote{
