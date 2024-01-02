@@ -70,6 +70,7 @@ ul{
     display: flex;
     justify-content: center;
     gap: 3%;
+    flex-wrap: wrap;
 }
 
 .cards{
