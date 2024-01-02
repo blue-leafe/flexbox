@@ -1,3 +1,55 @@
 body{
     height: 100vh;
 }
+.header{
+    background-color: #1f2937;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.awesome{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+.h_button{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.signup > p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.links{
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.t_card{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+blockquote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+}
+
+.action{
+    background-color:#3882f6;
+}
+
+.footer{
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
